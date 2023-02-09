@@ -1,9 +1,55 @@
 @charset "UTF-8";
 @import "./reset.css";
-
+html{
+	font-size: 16px;
+}
 body{
 	font-family: "Roboto Condesed","Note Sans KR",sans-serif;
 	color: #fff;
 	font-size: 14px;
 	background-color:#4f0600;
+}
+.d-none{
+	display:none;
+	
+}
+
+.top-bar-outer{
+	background-color:#fff;
+}
+.top-bar{
+	max-width:800px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}	
+
+.top-logo{
+	
+}
+.top-menu a{
+	font-size:14px; /*     14px / 16px  = >  0.875rem */
+	color:#666666;
+	text-decoration: none; /* 꾸밈없어짐 */
+	
+}
+
+.top-menu a:nth-last-child(){
+	margin: 0 1ren;
+}
+
+.top-marketing{
+	max-width:800px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-marketing p{
+	color:#000;
+}
+
+.top-marketing-outer{
+	background-color:#fff;
 }
