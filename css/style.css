@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import "./reset.css";
+
+body{
+	font-family: "Roboto Condesed","Note Sans KR",sans-serif;
+	color: #fff;
+	font-size: 14px;
+	background-color:#4f0600;
+}

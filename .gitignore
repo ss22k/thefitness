@@ -1,0 +1,8 @@
+asset/
+*.zip
+*.hwp
+*.txt
+*.java
+*.mp4
+META-INF/
+WEB-INF/
