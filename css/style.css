@@ -68,12 +68,18 @@ body{
 
 .top-marketing-outer{
 	background-color:#fff;
+	height:500px;
 }
 
+.model{
+	margin:135px auto;
+}
 
 .text {
 	width:300px;
+	height:300px;
 	position:relative;
+	margin:100px auto;
 }
 .text p{
 	font-size: 60px;
@@ -100,6 +106,29 @@ body{
 	font-size: 90px;
 	color:#000000;
 	position: absolute;
-	left: 100px;
-	top: 190px;
+	left: 120px;
+	top: 130px;
+}
+.menu-outer{
+	background-color:#830e04;
+	padding:1rem 0;
+}
+.menu {
+	width:800px;
+	
+	margin: 0 auto;
+	background-color:#830e04;
+	text-align:right;
+}
+
+.menu a{
+	font-size:14px; /*     14px / 16px  = >  0.875rem */
+	color:#ffffff;
+	text-decoration: none; /* 꾸밈없어짐 */
+    
+	
+}
+
+.menu a:nth-child(2){
+	marigh: 0 1rem;
 }
