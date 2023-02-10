@@ -1,5 +1,21 @@
 @charset "UTF-8";
 @import "./reset.css";
+
+/*
+ css 레이아웃 기법
+ 
+ block vs inline : 줄바꿈이 발생(block), 한줄에 연속적으로 배치(inline)
+ 
+ float : left ,right 방향으로 경계까지 
+ ㄴ clear : float 적용후 더 이상 적용하지 않을 경후 float 해제
+ 
+ position : 원래 흐림(static)에서 벗어나 배치를 결정
+ 			absoulte,relative,fixed, sticky 비표준:(static + absolute )
+ 			
+ 
+
+
+*/
 html{
 	font-size: 16px;
 }
@@ -52,4 +68,38 @@ body{
 
 .top-marketing-outer{
 	background-color:#fff;
+}
+
+
+.text {
+	width:300px;
+	position:relative;
+}
+.text p{
+	font-size: 60px;
+	color:black;
+}
+
+.top-marketing p:nth-child(1){
+	font-size: 60px;
+	color:#000000;
+	position: absolute;
+	left: 0;
+	top: 70px;
+}
+
+.text p:nth-child(2){
+	font-size: 60px;
+	color:#cf160c;
+	position: absolute;
+	left: 0;
+	top: 130px;
+}
+
+.text p:nth-child(3){
+	font-size: 90px;
+	color:#000000;
+	position: absolute;
+	left: 100px;
+	top: 190px;
 }
